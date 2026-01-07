@@ -107,7 +107,21 @@
         "injury_no_info": "Keine Information",
         "injury_injury_prone": "Verletzungsanfällig",
         "injury_very_injury_prone": "Sehr verletzungsanfällig",
-        "injury_extremely_injury_prone": "Extrem verletzungsanfällig"
+        "injury_extremely_injury_prone": "Extrem verletzungsanfällig",
+        "dirtiness_extremely_clean": "Extremely clean player",
+        "dirtiness_very_clean": "Very clean player",
+        "dirtiness_clean": "Clean player",
+        "dirtiness_no_info": "No information",
+        "dirtiness_occasionally_dirty": "Occasionally dirty",
+        "dirtiness_dirty_player": "Dirty player",
+        "dirtiness_very_dirty": "Very dirty player",
+        "individual_training_exceptional_improvement": "Exceptional improvement",
+        "individual_training_great_improvement": "Great improvement",
+        "individual_training_good_improvement": "Good improvement",
+        "individual_training_average_improvement": "Average improvement",
+        "individual_training_little_improvement": "Little improvement",
+        "individual_training_struggling": "Struggling",
+        "individual_training_no_improvement": "No improvement"
     },
     "infrastructure": {
         "title": "Infrastrukturwerte",

@@ -111,7 +111,21 @@
         "injury_no_info": "Aucune information",
         "injury_injury_prone": "Sujet aux blessures",
         "injury_very_injury_prone": "Très souvent blessé",
-        "injury_extremely_injury_prone": "Extrêmement fragile"
+        "injury_extremely_injury_prone": "Extrêmement fragile",
+        "dirtiness_extremely_clean": "Extrêmement fair-play",
+        "dirtiness_very_clean": "Très fair-play",
+        "dirtiness_clean": "Fair-play",
+        "dirtiness_no_info": "Aucune information",
+        "dirtiness_occasionally_dirty": "Parfois limite",
+        "dirtiness_dirty_player": "Joueur rugueux",
+        "dirtiness_very_dirty": "Joueur très rugueux",
+        "individual_training_exceptional_improvement": "Progression exceptionnelle",
+        "individual_training_great_improvement": "Excellente progression",
+        "individual_training_good_improvement": "Bonne progression",
+        "individual_training_average_improvement": "Progression moyenne",
+        "individual_training_little_improvement": "Faible progression",
+        "individual_training_struggling": "En difficulté",
+        "individual_training_no_improvement": "Aucune progression"
     },
     "infrastructure": {
         "title": "Les infrastructures",
