@@ -46,3 +46,22 @@ jobs:
           releaseBody: 'See the assets to download this version and install.'
           releaseDraft: true
           prerelease: false
+
+      - name: Upload Portable (Windows)
+        if: matrix.platform == 'windows-latest'
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $releasePath = "src-tauri/target/release"
+          $zipName = "FMTools_${{ github.ref_name }}_portable_x64.zip"
+          
+          # Find the executable and any DLLs
+          $filesToZip = Get-ChildItem -Path $releasePath | Where-Object { $_.Name -like "*.exe" -or $_.Name -like "*.dll" }
+          
+          if ($filesToZip) {
+             Compress-Archive -Path $filesToZip.FullName -DestinationPath $zipName
+             gh release upload ${{ github.ref_name }} $zipName
+          } else {
+             Write-Error "No executable found in $releasePath"
+          }
