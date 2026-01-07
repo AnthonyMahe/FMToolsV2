@@ -36,32 +36,44 @@ jobs:
       - name: Install frontend dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Build and Create Release
-        uses: tauri-apps/tauri-action@v0
+      - name: Build Tauri app
+        run: npm run tauri build
+
+      - name: Create Release (first platform only)
+        if: matrix.platform == 'ubuntu-22.04'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tagName: ${{ github.ref_name }}
-          releaseName: 'FMToolsV2 ${{ github.ref_name }}'
-          releaseBody: 'See the assets to download this version and install.'
-          releaseDraft: true
-          prerelease: false
+        run: |
+          gh release create ${{ github.ref_name }} \
+            --title "FMToolsV2 ${{ github.ref_name }}" \
+            --notes "Download the portable executable for your platform." \
+            --draft || true
 
-      - name: Upload Portable (Windows)
+      - name: Upload AppImage (Linux)
+        if: matrix.platform == 'ubuntu-22.04'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          APPIMAGE=$(find src-tauri/target/release/bundle/appimage -name "*.AppImage" | head -1)
+          if [ -n "$APPIMAGE" ]; then
+            gh release upload ${{ github.ref_name }} "$APPIMAGE" --clobber
+          else
+            echo "No AppImage found"
+            exit 1
+          fi
+
+      - name: Upload Portable EXE (Windows)
         if: matrix.platform == 'windows-latest'
         shell: pwsh
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          $releasePath = "src-tauri/target/release"
-          $zipName = "FMTools_${{ github.ref_name }}_portable_x64.zip"
-          
-          # Find the executable and any DLLs
-          $filesToZip = Get-ChildItem -Path $releasePath | Where-Object { $_.Name -like "*.exe" -or $_.Name -like "*.dll" }
-          
-          if ($filesToZip) {
-             Compress-Archive -Path $filesToZip.FullName -DestinationPath $zipName
-             gh release upload ${{ github.ref_name }} $zipName
+          $exePath = "src-tauri/target/release/FMTools.exe"
+          if (Test-Path $exePath) {
+            $newName = "FMTools_${{ github.ref_name }}_portable_x64.exe"
+            Copy-Item $exePath $newName
+            gh release upload ${{ github.ref_name }} $newName --clobber
           } else {
-             Write-Error "No executable found in $releasePath"
+            Write-Error "Executable not found at $exePath"
+            exit 1
           }
