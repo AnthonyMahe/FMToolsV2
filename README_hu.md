@@ -1,11 +1,46 @@
-# FMToolsV2
+<p align="center">
+  <img src="FMToolsV2.png" alt="FMToolsV2" width="128">
+</p>
 
-Check my other repositories : [**NewGAN-Manager**](https://github.com/AnthonyMahe/NewGAN-Manager-26)
+<h1 align="center">FMToolsV2</h1>
 
-### Languages
-[🇧🇬 Български](README_bg.md) | [🇨🇿 Čeština](README_cs.md) | [🇩🇰 Dansk](README_da.md) | [🇩🇪 Deutsch](README_de.md) | [🇬🇷 Ελληνικά](README_el.md) | [🇬🇧 English](README.md) | [🇪🇸 Español](README_es.md) | [🇪🇪 Eesti](README_et.md) | [🇫🇮 Suomi](README_fi.md) | [🇫🇷 Français](README_fr.md) | [🇮🇪 Gaeilge](README_ga.md) | [🇭🇷 Hrvatski](README_hr.md) | **🇭🇺 Magyar** | [🇮🇹 Italiano](README_it.md) | [🇱🇹 Lietuvių](README_lt.md) | [🇱🇻 Latviešu](README_lv.md) | [🇲🇹 Malti](README_mt.md) | [🇳🇱 Nederlands](README_nl.md) | [🇵🇱 Polski](README_pl.md) | [🇵🇹 Português](README_pt.md) | [🇷🇴 Română](README_ro.md) | [🇸🇰 Slovenčina](README_sk.md) | [🇸🇮 Slovenščina](README_sl.md) | [🇸🇪 Svenska](README_sv.md)
+<h4 align="center">📖 Read in your language</h4>
 
-> Értékelő eszközök a Football Manager 26-hoz
+<p align="center">
+  <a href="README_bg.md"><img src="https://hatscripts.github.io/circle-flags/flags/bg.svg" width="32" alt="Български"></a>&nbsp;
+  <a href="README_cs.md"><img src="https://hatscripts.github.io/circle-flags/flags/cz.svg" width="32" alt="Čeština"></a>&nbsp;
+  <a href="README_da.md"><img src="https://hatscripts.github.io/circle-flags/flags/dk.svg" width="32" alt="Dansk"></a>&nbsp;
+  <a href="README_de.md"><img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="32" alt="Deutsch"></a>&nbsp;
+  <a href="README_el.md"><img src="https://hatscripts.github.io/circle-flags/flags/gr.svg" width="32" alt="Ελληνικά"></a>&nbsp;
+  <a href="README.md"><img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="32" alt="English"></a>&nbsp;
+  <a href="README_es.md"><img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="32" alt="Español"></a>&nbsp;
+  <a href="README_et.md"><img src="https://hatscripts.github.io/circle-flags/flags/ee.svg" width="32" alt="Eesti"></a>&nbsp;
+  <a href="README_fi.md"><img src="https://hatscripts.github.io/circle-flags/flags/fi.svg" width="32" alt="Suomi"></a>&nbsp;
+  <a href="README_fr.md"><img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="32" alt="Français"></a>&nbsp;
+  <a href="README_ga.md"><img src="https://hatscripts.github.io/circle-flags/flags/ie.svg" width="32" alt="Gaeilge"></a>&nbsp;
+  <a href="README_hr.md"><img src="https://hatscripts.github.io/circle-flags/flags/hr.svg" width="32" alt="Hrvatski"></a>&nbsp;
+  <a href="README_hu.md"><img src="https://hatscripts.github.io/circle-flags/flags/hu.svg" width="32" alt="Magyar"></a>&nbsp;
+  <a href="README_it.md"><img src="https://hatscripts.github.io/circle-flags/flags/it.svg" width="32" alt="Italiano"></a>&nbsp;
+  <a href="README_lt.md"><img src="https://hatscripts.github.io/circle-flags/flags/lt.svg" width="32" alt="Lietuvių"></a>&nbsp;
+  <a href="README_lv.md"><img src="https://hatscripts.github.io/circle-flags/flags/lv.svg" width="32" alt="Latviešu"></a>&nbsp;
+  <a href="README_mt.md"><img src="https://hatscripts.github.io/circle-flags/flags/mt.svg" width="32" alt="Malti"></a>&nbsp;
+  <a href="README_nl.md"><img src="https://hatscripts.github.io/circle-flags/flags/nl.svg" width="32" alt="Nederlands"></a>&nbsp;
+  <a href="README_pl.md"><img src="https://hatscripts.github.io/circle-flags/flags/pl.svg" width="32" alt="Polski"></a>&nbsp;
+  <a href="README_pt.md"><img src="https://hatscripts.github.io/circle-flags/flags/pt.svg" width="32" alt="Português"></a>&nbsp;
+  <a href="README_ro.md"><img src="https://hatscripts.github.io/circle-flags/flags/ro.svg" width="32" alt="Română"></a>&nbsp;
+  <a href="README_sk.md"><img src="https://hatscripts.github.io/circle-flags/flags/sk.svg" width="32" alt="Slovenčina"></a>&nbsp;
+  <a href="README_sl.md"><img src="https://hatscripts.github.io/circle-flags/flags/si.svg" width="32" alt="Slovenščina"></a>&nbsp;
+  <a href="README_sv.md"><img src="https://hatscripts.github.io/circle-flags/flags/se.svg" width="32" alt="Svenska"></a>&nbsp;
+</p>
+
+---
+
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+
+**Értékelő eszközök a Football Manager 26-hoz**
 
 Üdvözöljük a játékos és stáb értékelő eszközben
 
@@ -17,6 +52,13 @@ Az elmúlt évek Football Manager tesztjei után Kinito és DoctorDim lehetővé
 - **Stáb**: Értékelje a stábot az igényeinek legjobb kielégítéséhez. Az FM26-ban az attribútumok leíró szavakkal jelennek meg.
 - **Jelentések**: Értelmezzen különböző jelentéseket: Megfigyelő, Edző, Egyéni edzés
 - **Infrastruktúra**: Ismerje meg és értékelje klubja infrastrukturális fejlődését.
+
+## Installation
+1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
+2. Run the executable (Windows) or AppImage (Linux)
+
+## Check my other projects
+- [**NewGAN-Manager-26**](https://github.com/AnthonyMahe/NewGAN-Manager-26)
 
 ## Credits
 Based on work by Gilgiltsu, Kinito & DoctorDim
