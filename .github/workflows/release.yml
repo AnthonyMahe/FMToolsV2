@@ -34,7 +34,7 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
 
       - name: Install frontend dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build and Create Release
         uses: tauri-apps/tauri-action@v0
