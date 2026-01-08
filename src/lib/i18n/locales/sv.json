@@ -108,20 +108,20 @@
         "injury_injury_prone": "Skadebenägen",
         "injury_very_injury_prone": "Mycket skadebenägen",
         "injury_extremely_injury_prone": "Extremt skadebenägen",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Extremt ren spelare",
+        "dirtiness_very_clean": "Mycket ren spelare",
+        "dirtiness_clean": "Ren spelare",
+        "dirtiness_no_info": "Ingen information",
+        "dirtiness_occasionally_dirty": "Ibland smutsig",
+        "dirtiness_dirty_player": "Smutsig spelare",
+        "dirtiness_very_dirty": "Mycket smutsig spelare",
+        "individual_training_exceptional_improvement": "Exceptionell förbättring",
+        "individual_training_great_improvement": "Stor förbättring",
+        "individual_training_good_improvement": "Bra förbättring",
+        "individual_training_average_improvement": "Genomsnittlig förbättring",
+        "individual_training_little_improvement": "Liten förbättring",
+        "individual_training_struggling": "Kämpar",
+        "individual_training_no_improvement": "Ingen förbättring"
     },
     "infrastructure": {
         "title": "Infrastrukturvärden",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Baserat på arbetet av Gilgiltsu, Kinito & DoctorDim"
     }
 }

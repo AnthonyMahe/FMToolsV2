@@ -53,6 +53,17 @@ Tar éis go leor tástálacha ar Football Manager le blianta beaga anuas, chuir 
 - **Tuairiscí**: Léirmhínigh tuairiscí éagsúla: Scout, Traenálaí, Traenáil aonair
 - **Bonneagar**: Aithin agus meastóireacht a dhéanamh ar fhorbairt bonneagair do chlub.
 
+
+## Seatanna scáileáin
+
+<p align="center">
+  <img src="screenshots/home_ga.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_ga.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

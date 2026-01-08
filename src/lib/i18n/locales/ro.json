@@ -108,20 +108,20 @@
         "injury_injury_prone": "Predispus la accidentări",
         "injury_very_injury_prone": "Foarte predispus la accidentări",
         "injury_extremely_injury_prone": "Extrem de predispus la accidentări",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Jucător extrem de curat",
+        "dirtiness_very_clean": "Jucător foarte curat",
+        "dirtiness_clean": "Jucător curat",
+        "dirtiness_no_info": "Fără informații",
+        "dirtiness_occasionally_dirty": "Ocazional dur",
+        "dirtiness_dirty_player": "Jucător dur",
+        "dirtiness_very_dirty": "Jucător foarte dur",
+        "individual_training_exceptional_improvement": "Îmbunătățire excepțională",
+        "individual_training_great_improvement": "Îmbunătățire mare",
+        "individual_training_good_improvement": "Îmbunătățire bună",
+        "individual_training_average_improvement": "Îmbunătățire medie",
+        "individual_training_little_improvement": "Puțină îmbunătățire",
+        "individual_training_struggling": "Se luptă",
+        "individual_training_no_improvement": "Nici o îmbunătățire"
     },
     "infrastructure": {
         "title": "Valori infrastructură",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Bazat pe munca lui Gilgiltsu, Kinito & DoctorDim"
     }
 }

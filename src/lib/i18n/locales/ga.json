@@ -108,20 +108,20 @@
         "injury_injury_prone": "Tugtha do ghortuithe",
         "injury_very_injury_prone": "An-tugtha do ghortuithe",
         "injury_extremely_injury_prone": "Thar a bheith tugtha do ghortuithe",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Imreoir an-ghlan",
+        "dirtiness_very_clean": "Imreoir glan go maith",
+        "dirtiness_clean": "Imreoir glan",
+        "dirtiness_no_info": "Gan eolas",
+        "dirtiness_occasionally_dirty": "Crua uaireanta",
+        "dirtiness_dirty_player": "Imreoir crua",
+        "dirtiness_very_dirty": "Imreoir an-chrua",
+        "individual_training_exceptional_improvement": "Feabhús eisceachtúil",
+        "individual_training_great_improvement": "Feabhús mór",
+        "individual_training_good_improvement": "Feabhús maith",
+        "individual_training_average_improvement": "Feabhús meánach",
+        "individual_training_little_improvement": "Feabhús beag",
+        "individual_training_struggling": "Ag streachailt",
+        "individual_training_no_improvement": "Gan feabhús"
     },
     "infrastructure": {
         "title": "Luachanna bonneagair",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Bunaithe ar obair Gilgiltsu, Kinito & DoctorDim"
     }
 }

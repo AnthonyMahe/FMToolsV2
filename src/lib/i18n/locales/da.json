@@ -108,20 +108,20 @@
         "injury_injury_prone": "Skadestilbøjelig",
         "injury_very_injury_prone": "Meget skadestilbøjelig",
         "injury_extremely_injury_prone": "Ekstremt skadestilbøjelig",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Ekstremt ren spiller",
+        "dirtiness_very_clean": "Meget ren spiller",
+        "dirtiness_clean": "Ren spiller",
+        "dirtiness_no_info": "Ingen information",
+        "dirtiness_occasionally_dirty": "Lejlighedsvis beskidt",
+        "dirtiness_dirty_player": "Beskidt spiller",
+        "dirtiness_very_dirty": "Meget beskidt spiller",
+        "individual_training_exceptional_improvement": "Usædvanlig forbedring",
+        "individual_training_great_improvement": "Stor forbedring",
+        "individual_training_good_improvement": "God forbedring",
+        "individual_training_average_improvement": "Gennemsnitlig forbedring",
+        "individual_training_little_improvement": "Lille forbedring",
+        "individual_training_struggling": "Kæmper",
+        "individual_training_no_improvement": "Ingen forbedring"
     },
     "infrastructure": {
         "title": "Infrastrukturværdier",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Baseret på arbejdet af Gilgiltsu, Kinito & DoctorDim"
     }
 }

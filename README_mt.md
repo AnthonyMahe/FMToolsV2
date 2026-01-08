@@ -53,6 +53,17 @@ Wara ħafna testijiet fuq Football Manager f'dawn l-aħħar snin, Kinito u Docto
 - **Rapporti**: Interpreta rapporti differenti: Scout, Kowċ, Taħriġ individwali
 - **Infrastruttura**: Agħraf u evalwa l-iżvilupp tal-infrastruttura tal-klabb tiegħek.
 
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/home_mt.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_mt.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

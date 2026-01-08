@@ -108,20 +108,20 @@
         "injury_injury_prone": "Sérülékeny",
         "injury_very_injury_prone": "Nagyon sérülékeny",
         "injury_extremely_injury_prone": "Rendkívül sérülékeny",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Rendkvül tiszta játékos",
+        "dirtiness_very_clean": "Nagyon tiszta játékos",
+        "dirtiness_clean": "Tiszta játékos",
+        "dirtiness_no_info": "Nincs információ",
+        "dirtiness_occasionally_dirty": "Néha durva",
+        "dirtiness_dirty_player": "Durva játékos",
+        "dirtiness_very_dirty": "Nagyon durva játékos",
+        "individual_training_exceptional_improvement": "Kivételes fejlődés",
+        "individual_training_great_improvement": "Nagy fejlődés",
+        "individual_training_good_improvement": "Jó fejlődés",
+        "individual_training_average_improvement": "Átlagos fejlődés",
+        "individual_training_little_improvement": "Kevés fejlődés",
+        "individual_training_struggling": "Küzd",
+        "individual_training_no_improvement": "Nincs fejlődés"
     },
     "infrastructure": {
         "title": "Infrastruktúra értékek",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Gilgiltsu, Kinito & DoctorDim munkája alapján"
     }
 }

@@ -53,6 +53,17 @@ După numeroase teste în Football Manager în ultimii ani, Kinito și DoctorDim
 - **Rapoarte**: Interpretați diferite rapoarte: Scout, Antrenor, Antrenament individual
 - **Infrastructură**: Cunoașteți și evaluați dezvoltarea infrastructurii clubului dumneavoastră.
 
+
+## Capturi de ecran
+
+<p align="center">
+  <img src="screenshots/home_ro.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_ro.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

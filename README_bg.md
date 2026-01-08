@@ -53,6 +53,17 @@
 - **Доклади**: Интерпретирайте различни доклади: Скаут, Треньор, Индивидуална тренировка
 - **Инфраструктура**: Опознайте и оценете развитието на инфраструктурата на вашия клуб.
 
+
+## Снимки на екрана
+
+<p align="center">
+  <img src="screenshots/home_bg.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_bg.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

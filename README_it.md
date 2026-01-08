@@ -53,6 +53,17 @@ Dopo numerosi test su Football Manager negli ultimi anni, Kinito e DoctorDim ci 
 - **Rapporti**: Interpreta diversi rapporti: Osservatore, Allenatore, Allenamento individuale
 - **Infrastrutture**: Conosci e valuta lo sviluppo delle infrastrutture del tuo club.
 
+
+## Screenshot
+
+<p align="center">
+  <img src="screenshots/home_it.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_it.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

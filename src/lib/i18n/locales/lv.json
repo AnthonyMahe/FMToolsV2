@@ -108,20 +108,20 @@
         "injury_injury_prone": "Pakļauts traumām",
         "injury_very_injury_prone": "Ļoti pakļauts traumām",
         "injury_extremely_injury_prone": "Ārkārtīgi pakļauts traumām",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Īpaši tīrs spēlētājs",
+        "dirtiness_very_clean": "Ļoti tīrs spēlētājs",
+        "dirtiness_clean": "Tīrs spēlētājs",
+        "dirtiness_no_info": "Nav informācijas",
+        "dirtiness_occasionally_dirty": "Dažreiz rupjš",
+        "dirtiness_dirty_player": "Rupjš spēlētājs",
+        "dirtiness_very_dirty": "Ļoti rupjš spēlētājs",
+        "individual_training_exceptional_improvement": "Izcīls uzlabojums",
+        "individual_training_great_improvement": "Liels uzlabojums",
+        "individual_training_good_improvement": "Labs uzlabojums",
+        "individual_training_average_improvement": "Vidējs uzlabojums",
+        "individual_training_little_improvement": "Neliels uzlabojums",
+        "individual_training_struggling": "Cīnās",
+        "individual_training_no_improvement": "Nav uzlabojuma"
     },
     "infrastructure": {
         "title": "Infrastruktūras vērtības",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Balstīts uz Gilgiltsu, Kinito & DoctorDim darbu"
     }
 }

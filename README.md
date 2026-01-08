@@ -53,6 +53,16 @@ After numerous tests on Football Manager in recent years, Kinito and DoctorDim h
 - **Reports**: Interpret different reports: Scout, Coach, Individual Training
 - **Infrastructure**: Know and evaluate your club's infrastructure development.
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/home_en.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_en.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

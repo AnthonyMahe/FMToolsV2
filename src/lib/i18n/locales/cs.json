@@ -108,20 +108,20 @@
         "injury_injury_prone": "Náchylný ke zraněním",
         "injury_very_injury_prone": "Velmi náchylný ke zraněním",
         "injury_extremely_injury_prone": "Extrémně náchylný ke zraněním",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Extrémně férový hráč",
+        "dirtiness_very_clean": "Velmi férový hráč",
+        "dirtiness_clean": "Férový hráč",
+        "dirtiness_no_info": "Žádné informace",
+        "dirtiness_occasionally_dirty": "Občas neférový",
+        "dirtiness_dirty_player": "Neférový hráč",
+        "dirtiness_very_dirty": "Velmi neférový hráč",
+        "individual_training_exceptional_improvement": "Výjimečné zlepšení",
+        "individual_training_great_improvement": "Velké zlepšení",
+        "individual_training_good_improvement": "Dobré zlepšení",
+        "individual_training_average_improvement": "Průměrné zlepšení",
+        "individual_training_little_improvement": "Málo zlepšení",
+        "individual_training_struggling": "Bojuje",
+        "individual_training_no_improvement": "Žádné zlepšení"
     },
     "infrastructure": {
         "title": "Hodnoty infrastruktury",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Založeno na práci Gilgiltsu, Kinito & DoctorDim"
     }
 }

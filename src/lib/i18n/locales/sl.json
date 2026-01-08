@@ -108,20 +108,20 @@
         "injury_injury_prone": "Nagnjen k poškodbam",
         "injury_very_injury_prone": "Zelo nagnjen k poškodbam",
         "injury_extremely_injury_prone": "Izjemno nagnjen k poškodbam",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Izjemno čist igralec",
+        "dirtiness_very_clean": "Zelo čist igralec",
+        "dirtiness_clean": "Čist igralec",
+        "dirtiness_no_info": "Ni informacij",
+        "dirtiness_occasionally_dirty": "Včasih grob",
+        "dirtiness_dirty_player": "Grob igralec",
+        "dirtiness_very_dirty": "Zelo grob igralec",
+        "individual_training_exceptional_improvement": "Izjemno izboljšanje",
+        "individual_training_great_improvement": "Veliko izboljšanje",
+        "individual_training_good_improvement": "Dobro izboljšanje",
+        "individual_training_average_improvement": "Povprečno izboljšanje",
+        "individual_training_little_improvement": "Malo izboljšanja",
+        "individual_training_struggling": "Se trudi",
+        "individual_training_no_improvement": "Brez izboljšav"
     },
     "infrastructure": {
         "title": "Vrednosti infrastrukture",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Temelji na delu Gilgiltsu, Kinito & DoctorDim"
     }
 }

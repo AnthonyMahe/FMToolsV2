@@ -53,6 +53,17 @@ Após numerosos testes no Football Manager nos últimos anos, Kinito e DoctorDim
 - **Relatórios**: Interpreta diferentes relatórios: Observador, Treinador, Treino individual
 - **Infraestrutura**: Conhece e avalia o desenvolvimento da infraestrutura do teu clube.
 
+
+## Capturas de tela
+
+<p align="center">
+  <img src="screenshots/home_pt.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_pt.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

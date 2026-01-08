@@ -108,20 +108,20 @@
         "injury_injury_prone": "Blessuregevoelig",
         "injury_very_injury_prone": "Zeer blessuregevoelig",
         "injury_extremely_injury_prone": "Extreem blessuregevoelig",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Extreem schone speler",
+        "dirtiness_very_clean": "Zeer schone speler",
+        "dirtiness_clean": "Schone speler",
+        "dirtiness_no_info": "Geen informatie",
+        "dirtiness_occasionally_dirty": "Soms vuil",
+        "dirtiness_dirty_player": "Vuile speler",
+        "dirtiness_very_dirty": "Zeer vuile speler",
+        "individual_training_exceptional_improvement": "Uitzonderlijke verbetering",
+        "individual_training_great_improvement": "Grote verbetering",
+        "individual_training_good_improvement": "Goede verbetering",
+        "individual_training_average_improvement": "Gemiddelde verbetering",
+        "individual_training_little_improvement": "Weinig verbetering",
+        "individual_training_struggling": "Worstelt",
+        "individual_training_no_improvement": "Geen verbetering"
     },
     "infrastructure": {
         "title": "Infrastructuurwaarden",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Gebaseerd op het werk van Gilgiltsu, Kinito & DoctorDim"
     }
 }

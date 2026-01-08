@@ -108,20 +108,20 @@
         "injury_injury_prone": "Predisposto agli infortuni",
         "injury_very_injury_prone": "Molto predisposto agli infortuni",
         "injury_extremely_injury_prone": "Estremamente predisposto agli infortuni",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Giocatore estremamente corretto",
+        "dirtiness_very_clean": "Giocatore molto corretto",
+        "dirtiness_clean": "Giocatore corretto",
+        "dirtiness_no_info": "Nessuna informazione",
+        "dirtiness_occasionally_dirty": "Occasionalmente scorretto",
+        "dirtiness_dirty_player": "Giocatore scorretto",
+        "dirtiness_very_dirty": "Giocatore molto scorretto",
+        "individual_training_exceptional_improvement": "Miglioramento eccezionale",
+        "individual_training_great_improvement": "Grande miglioramento",
+        "individual_training_good_improvement": "Buon miglioramento",
+        "individual_training_average_improvement": "Miglioramento medio",
+        "individual_training_little_improvement": "Poco miglioramento",
+        "individual_training_struggling": "In difficoltà",
+        "individual_training_no_improvement": "Nessun miglioramento"
     },
     "infrastructure": {
         "title": "Valori infrastrutture",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Basato sul lavoro di Gilgiltsu, Kinito & DoctorDim"
     }
 }

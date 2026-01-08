@@ -53,6 +53,17 @@ Po licznych testach w Football Manager w ostatnich latach, Kinito i DoctorDim po
 - **Raporty**: Interpretuj różne raporty: Skaut, Trener, Trening indywidualny
 - **Infrastruktura**: Poznaj i oceń rozwój infrastruktury swojego klubu.
 
+
+## Zrzuty ekranu
+
+<p align="center">
+  <img src="screenshots/home_pl.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_pl.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

@@ -53,6 +53,17 @@ Nach zahlreichen Tests am Football Manager in den letzten Jahren haben Kinito un
 - **Berichte**: Interpretieren Sie verschiedene Berichte: Scout, Trainer, Einzeltraining
 - **Infrastruktur**: Kennen und bewerten Sie die Infrastrukturentwicklung Ihres Vereins.
 
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/home_de.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_de.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

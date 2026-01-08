@@ -53,6 +53,17 @@ Na talrijke tests op Football Manager in de afgelopen jaren hebben Kinito en Doc
 - **Rapporten**: Interpreteer verschillende rapporten: Scout, Trainer, Individuele training
 - **Infrastructuur**: Ken en beoordeel de infrastructuurontwikkeling van uw club.
 
+
+## Schermafbeeldingen
+
+<p align="center">
+  <img src="screenshots/home_nl.png" alt="Home" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_nl.png" alt="Reports" width="600">
+</p>
+
 ## Installation
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)

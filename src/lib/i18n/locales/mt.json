@@ -108,20 +108,20 @@
         "injury_injury_prone": "Propens għal korrimenti",
         "injury_very_injury_prone": "Propens ħafna għal korrimenti",
         "injury_extremely_injury_prone": "Estremament propens għal korrimenti",
-        "dirtiness_extremely_clean": "Extremely clean player",
-        "dirtiness_very_clean": "Very clean player",
-        "dirtiness_clean": "Clean player",
-        "dirtiness_no_info": "No information",
-        "dirtiness_occasionally_dirty": "Occasionally dirty",
-        "dirtiness_dirty_player": "Dirty player",
-        "dirtiness_very_dirty": "Very dirty player",
-        "individual_training_exceptional_improvement": "Exceptional improvement",
-        "individual_training_great_improvement": "Great improvement",
-        "individual_training_good_improvement": "Good improvement",
-        "individual_training_average_improvement": "Average improvement",
-        "individual_training_little_improvement": "Little improvement",
-        "individual_training_struggling": "Struggling",
-        "individual_training_no_improvement": "No improvement"
+        "dirtiness_extremely_clean": "Plejer nadif ħafna",
+        "dirtiness_very_clean": "Plejer nadif ħafna",
+        "dirtiness_clean": "Plejer nadif",
+        "dirtiness_no_info": "L-ebda informazzjoni",
+        "dirtiness_occasionally_dirty": "Kultant iħobbu dur",
+        "dirtiness_dirty_player": "Plejer aħrax",
+        "dirtiness_very_dirty": "Plejer aħrax ħafna",
+        "individual_training_exceptional_improvement": "Titjib eċċezzjonali",
+        "individual_training_great_improvement": "Titjib kbir",
+        "individual_training_good_improvement": "Titjib tajjeb",
+        "individual_training_average_improvement": "Titjib medju",
+        "individual_training_little_improvement": "Titjib żgħir",
+        "individual_training_struggling": "Qed jbati",
+        "individual_training_no_improvement": "L-ebda titjib"
     },
     "infrastructure": {
         "title": "Valuri tal-infrastruttura",
@@ -219,6 +219,6 @@
     },
     "footer": {
         "copyright": "© FMToolsV2 2026 -",
-        "based_on": "Based on work by Gilgiltsu, Kinito & DoctorDim"
+        "based_on": "Ibbażat fuq ix-xogħol ta' Gilgiltsu, Kinito & DoctorDim"
     }
 }
