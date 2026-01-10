@@ -80,6 +80,9 @@ gh attestation verify <downloaded-file> --owner AnthonyMahe
 ```
 
 
+## Supported Languages (FM26 Official)
+<img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="16"> Français | <img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="16"> English | <img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="16"> Deutsch | <img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="16"> Español | <img src="https://hatscripts.github.io/circle-flags/flags/it.svg" width="16"> Italiano | <img src="https://hatscripts.github.io/circle-flags/flags/pt.svg" width="16"> Português | <img src="https://hatscripts.github.io/circle-flags/flags/nl.svg" width="16"> Nederlands | <img src="https://hatscripts.github.io/circle-flags/flags/pl.svg" width="16"> Polski | <img src="https://hatscripts.github.io/circle-flags/flags/gr.svg" width="16"> Ελληνικά | <img src="https://hatscripts.github.io/circle-flags/flags/se.svg" width="16"> Svenska | <img src="https://hatscripts.github.io/circle-flags/flags/dk.svg" width="16"> Dansk | <img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" width="16"> 简体中文 | <img src="https://hatscripts.github.io/circle-flags/flags/kr.svg" width="16"> 한국어
+
 ## Check my other projects
 - [**NewGAN-Manager-26**](https://github.com/AnthonyMahe/NewGAN-Manager-26)
 
