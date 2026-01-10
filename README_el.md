@@ -40,6 +40,9 @@
 ![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)
 ![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
 
+![SHA256](https://img.shields.io/badge/SHA256-Verified-green?style=flat-square&logo=checkmarx)
+![SLSA](https://img.shields.io/badge/SLSA-Attested-blue?style=flat-square&logo=github)
+![GitHub Attestations](https://img.shields.io/badge/Attestations-Signed-purple?style=flat-square&logo=sigstore)
 **Εργαλεία αξιολόγησης για το Football Manager 26**
 
 Καλώς ήρθατε στο εργαλείο αξιολόγησης παικτών και προπονητικού επιτελείου
@@ -68,8 +71,21 @@
 1. Download the latest version from [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)
 2. Run the executable (Windows) or AppImage (Linux)
 
+## 🔒 Security Verification
+All releases are cryptographically signed and verified:
+- **SHA256 Checksums**: Compare with `checksums_windows.txt` / `checksums_linux.txt`
+- **GitHub Attestations**: Verify build provenance with:
+```bash
+gh attestation verify <downloaded-file> --owner AnthonyMahe
+```
+
+
 ## Check my other projects
 - [**NewGAN-Manager-26**](https://github.com/AnthonyMahe/NewGAN-Manager-26)
 
 ## Credits
 Based on work by Gilgiltsu, Kinito & DoctorDim
+
+## Support
+<a href="https://liberapay.com/TonyBoySUPER/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+

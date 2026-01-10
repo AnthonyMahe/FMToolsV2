@@ -9,6 +9,8 @@ jobs:
   release:
     permissions:
       contents: write
+      id-token: write
+      attestations: write
     strategy:
       fail-fast: false
       matrix:
@@ -46,7 +48,15 @@ jobs:
         run: |
           gh release create ${{ github.ref_name }} \
             --title "FMToolsV2 ${{ github.ref_name }}" \
-            --notes "Download the portable executable for your platform." \
+            --notes "Download the portable executable for your platform.
+
+## Security Verification
+All artifacts are signed with GitHub Attestations. Verify with:
+\`\`\`bash
+gh attestation verify <downloaded-file> --owner AnthonyMahe
+\`\`\`
+
+SHA256 checksums are included in \`checksums.txt\` for integrity verification." \
             --draft || true
 
       - name: Upload AppImage (Linux)
@@ -56,11 +66,30 @@ jobs:
         run: |
           APPIMAGE=$(find src-tauri/target/release/bundle/appimage -name "*.AppImage" | head -1)
           if [ -n "$APPIMAGE" ]; then
-            gh release upload ${{ github.ref_name }} "$APPIMAGE" --clobber
+            # Copy to workspace for attestation
+            APPIMAGE_NAME=$(basename "$APPIMAGE")
+            cp "$APPIMAGE" "./$APPIMAGE_NAME"
+            echo "APPIMAGE_NAME=$APPIMAGE_NAME" >> $GITHUB_ENV
+            gh release upload ${{ github.ref_name }} "./$APPIMAGE_NAME" --clobber
           else
             echo "No AppImage found"
             exit 1
           fi
+
+      - name: Attest AppImage (Linux)
+        if: matrix.platform == 'ubuntu-22.04'
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: './${{ env.APPIMAGE_NAME }}'
+
+      - name: Generate checksums (Linux)
+        if: matrix.platform == 'ubuntu-22.04'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          sha256sum "./${{ env.APPIMAGE_NAME }}" > checksums_linux.txt
+          cat checksums_linux.txt
+          gh release upload ${{ github.ref_name }} checksums_linux.txt --clobber
 
       - name: Upload Portable EXE (Windows)
         if: matrix.platform == 'windows-latest'
@@ -73,7 +102,26 @@ jobs:
             $newName = "FMTools_${{ github.ref_name }}_portable_x64.exe"
             Copy-Item $exePath $newName
             gh release upload ${{ github.ref_name }} $newName --clobber
+            # Store name for attestation
+            echo "EXE_NAME=$newName" >> $env:GITHUB_ENV
           } else {
             Write-Error "Executable not found at $exePath"
             exit 1
           }
+
+      - name: Attest Windows EXE
+        if: matrix.platform == 'windows-latest'
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: './${{ env.EXE_NAME }}'
+
+      - name: Generate checksums (Windows)
+        if: matrix.platform == 'windows-latest'
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          $hash = Get-FileHash "./${{ env.EXE_NAME }}" -Algorithm SHA256
+          "$($hash.Hash.ToLower())  ${{ env.EXE_NAME }}" | Out-File -FilePath checksums_windows.txt -Encoding UTF8
+          Get-Content checksums_windows.txt
+          gh release upload ${{ github.ref_name }} checksums_windows.txt --clobber

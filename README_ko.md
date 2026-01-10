@@ -1,0 +1,81 @@
+<p align="center">
+  <img src="FMToolsV2.png" alt="FMToolsV2" width="128">
+</p>
+
+<h1 align="center">FMToolsV2</h1>
+
+<h4 align="center">📖 언어 선택</h4>
+
+<p align="center">
+  <a href="README_zh.md"><img src="https://hatscripts.github.io/circle-flags/flags/cn.svg" width="32" alt="简体中文"></a>&nbsp;
+  <a href="README_ko.md"><img src="https://hatscripts.github.io/circle-flags/flags/kr.svg" width="32" alt="한국어"></a>&nbsp;
+  <a href="README_da.md"><img src="https://hatscripts.github.io/circle-flags/flags/dk.svg" width="32" alt="Dansk"></a>&nbsp;
+  <a href="README_de.md"><img src="https://hatscripts.github.io/circle-flags/flags/de.svg" width="32" alt="Deutsch"></a>&nbsp;
+  <a href="README_el.md"><img src="https://hatscripts.github.io/circle-flags/flags/gr.svg" width="32" alt="Ελληνικά"></a>&nbsp;
+  <a href="README.md"><img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="32" alt="English"></a>&nbsp;
+  <a href="README_es.md"><img src="https://hatscripts.github.io/circle-flags/flags/es.svg" width="32" alt="Español"></a>&nbsp;
+  <a href="README_fr.md"><img src="https://hatscripts.github.io/circle-flags/flags/fr.svg" width="32" alt="Français"></a>&nbsp;
+  <a href="README_it.md"><img src="https://hatscripts.github.io/circle-flags/flags/it.svg" width="32" alt="Italiano"></a>&nbsp;
+  <a href="README_nl.md"><img src="https://hatscripts.github.io/circle-flags/flags/nl.svg" width="32" alt="Nederlands"></a>&nbsp;
+  <a href="README_pl.md"><img src="https://hatscripts.github.io/circle-flags/flags/pl.svg" width="32" alt="Polski"></a>&nbsp;
+  <a href="README_pt.md"><img src="https://hatscripts.github.io/circle-flags/flags/pt.svg" width="32" alt="Português"></a>&nbsp;
+  <a href="README_sv.md"><img src="https://hatscripts.github.io/circle-flags/flags/se.svg" width="32" alt="Svenska"></a>&nbsp;
+</p>
+
+---
+
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Tauri](https://img.shields.io/badge/Tauri-24C8D8?style=for-the-badge&logo=tauri&logoColor=white)
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+
+![SHA256](https://img.shields.io/badge/SHA256-Verified-green?style=flat-square&logo=checkmarx)
+![SLSA](https://img.shields.io/badge/SLSA-Attested-blue?style=flat-square&logo=github)
+![GitHub Attestations](https://img.shields.io/badge/Attestations-Signed-purple?style=flat-square&logo=sigstore)
+**Football Manager 26 평가 도구**
+
+선수 및 코칭 스태프 평가 도구에 오신 것을 환영합니다
+
+## 설명
+지난 몇 년간 Football Manager에서 수많은 테스트를 거친 후, Kinito와 DoctorDim은 게임의 중요한 측면을 깊이 이해할 수 있게 해주었습니다. 그들의 커뮤니티를 위한 작업을 활용하여, 스쿼드와 클럽 관리를 더 잘 이해할 수 있도록 이 작은 도구를 만들었습니다.
+
+## 기능
+- **숨겨진 속성**: 성격, 미디어 대응, 결단력을 통해 선수의 숨겨진 속성을 평가하세요
+- **코칭 스태프**: 필요에 맞게 스태프를 평가하세요. FM26에서는 속성이 설명적 단어로 표시됩니다.
+- **보고서**: 다양한 보고서 해석: 스카우트, 코치, 개인 훈련
+- **인프라**: 클럽의 인프라 발전을 알고 평가하세요.
+
+## 스크린샷
+
+<p align="center">
+  <img src="screenshots/home_ko.png" alt="홈" width="600">
+</p>
+
+<p align="center">
+  <img src="screenshots/reports_ko.png" alt="보고서" width="600">
+</p>
+
+## 설치
+1. [Releases](https://github.com/AnthonyMahe/FMToolsV2/releases)에서 최신 버전을 다운로드합니다
+2. 실행 파일 (Windows) 또는 AppImage (Linux)를 실행합니다
+
+
+## 🔒 Security Verification
+All releases are cryptographically signed and verified:
+- **SHA256 Checksums**: Compare with `checksums_windows.txt` / `checksums_linux.txt`
+- **GitHub Attestations**: Verify build provenance with:
+```bash
+gh attestation verify <downloaded-file> --owner AnthonyMahe
+```
+
+## 지원 언어 (FM26 공식)
+🇫🇷 Français | 🇬🇧 English | 🇩🇪 Deutsch | 🇪🇸 Español | 🇮🇹 Italiano | 🇵🇹 Português | 🇳🇱 Nederlands | 🇵🇱 Polski | 🇬🇷 Ελληνικά | 🇸🇪 Svenska | 🇩🇰 Dansk | 🇨🇳 简体中文 | 🇰🇷 한국어
+
+## 다른 프로젝트 확인
+- [**NewGAN-Manager-26**](https://github.com/AnthonyMahe/NewGAN-Manager-26)
+
+## 크레딧
+Gilgiltsu, Kinito & DoctorDim의 연구를 기반으로 함
+
+## 프로젝트 지원
+<a href="https://liberapay.com/TonyBoySUPER/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>

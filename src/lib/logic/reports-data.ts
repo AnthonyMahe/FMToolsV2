@@ -86,3 +86,87 @@ export const REPORT_CATEGORIES: ReportCategory[] = [
         ]
     }
 ];
+
+// ========== EFFETS SUR LES NOTES CACHÉES ==========
+// Ces événements sont liés à la hiérarchie de vestiaire et aux leaders d'équipe
+
+export interface TrainingEffect {
+    messageKey: string;
+    causeKey: string;
+    consequenceKey: string;
+    type: 'positive' | 'negative' | 'neutral';
+}
+
+export const TRAINING_EFFECTS: {
+    positive: TrainingEffect[];
+    negative: TrainingEffect[];
+    neutral: TrainingEffect[];
+} = {
+    positive: [
+        {
+            messageKey: 'coaching_positive',
+            causeKey: 'coaching',
+            consequenceKey: 'plus_one_hidden',
+            type: 'positive'
+        },
+        {
+            messageKey: 'team_spirit_positive',
+            causeKey: 'team_hierarchy',
+            consequenceKey: 'plus_one_hidden',
+            type: 'positive'
+        },
+        {
+            messageKey: 'welcome_positive',
+            causeKey: 'club_welcome',
+            consequenceKey: 'plus_one_hidden',
+            type: 'positive'
+        },
+        {
+            messageKey: 'playtime_positive',
+            causeKey: 'playtime',
+            consequenceKey: 'plus_one_prof_temp',
+            type: 'positive'
+        }
+    ],
+    negative: [
+        {
+            messageKey: 'coaching_negative',
+            causeKey: 'coaching',
+            consequenceKey: 'minus_one_hidden',
+            type: 'negative'
+        },
+        {
+            messageKey: 'team_spirit_negative',
+            causeKey: 'team_hierarchy',
+            consequenceKey: 'minus_one_hidden',
+            type: 'negative'
+        },
+        {
+            messageKey: 'welcome_negative',
+            causeKey: 'club_welcome',
+            consequenceKey: 'minus_one_hidden',
+            type: 'negative'
+        },
+        {
+            messageKey: 'contract_complacency',
+            causeKey: 'new_contract',
+            consequenceKey: 'minus_two_to_five',
+            type: 'negative'
+        },
+        {
+            messageKey: 'success_complacency',
+            causeKey: 'team_results',
+            consequenceKey: 'minus_two_to_five_prof_amb',
+            type: 'negative'
+        }
+    ],
+    neutral: [
+        {
+            messageKey: 'higher_level_experience',
+            causeKey: 'playtime',
+            consequenceKey: 'no_effect',
+            type: 'neutral'
+        }
+    ]
+};
+

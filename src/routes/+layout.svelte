@@ -30,6 +30,17 @@
                     {$_("footer.based_on")}
                 </a>
             </p>
+            <a
+                href="https://liberapay.com/TonyBoySUPER/donate"
+                target="_blank"
+                rel="noopener"
+                class="donate-button"
+            >
+                <img
+                    alt="Donate using Liberapay"
+                    src="https://liberapay.com/assets/widgets/donate.svg"
+                />
+            </a>
         </footer>
     </div>
 {:else}
@@ -54,6 +65,20 @@
 
     .app-footer a:hover {
         text-decoration: underline;
+    }
+
+    .donate-button {
+        display: inline-block;
+        margin-top: 0.5rem;
+    }
+
+    .donate-button img {
+        height: 24px;
+        transition: transform 0.2s;
+    }
+
+    .donate-button:hover img {
+        transform: scale(1.05);
     }
 
     .loading-screen {

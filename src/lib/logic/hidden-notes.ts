@@ -158,3 +158,111 @@ export function getRangeColor(range: [number, number]): 'success' | 'warning' | 
     if (avg >= 5) return 'warning';
     return 'error';
 }
+
+// ========== PROJETS DU JOUEUR ==========
+// Basé sur la logique de l'outil original de Gilgiltsu
+
+export interface PlayerProjects {
+    shortTermPlaytime: boolean;  // Projet à court terme relatif au temps de jeu
+    longTermPlaytime: boolean;   // Projet à long terme relatif au temps de jeu
+    trophy: boolean;             // Projet de remporter un trophée
+    captain: boolean;            // Espère devenir capitaine
+}
+
+export interface VisibleProjects {
+    shortTermPlaytime: boolean;
+    longTermPlaytime: boolean;
+    trophy: boolean;
+    captain: boolean;
+    anyVisible: boolean;
+}
+
+/**
+ * Détermine quels projets sont visibles en fonction des attributs actuels
+ * Un projet n'apparaît que si les attributs permettent les valeurs requises
+ */
+export function getVisibleProjects(
+    attributes: HiddenAttributes,
+    determination: number
+): VisibleProjects {
+    // Les projets ne s'affichent que si l'ambition max >= 14
+    const canShowProjects = attributes.ambition[1] >= 14;
+
+    // Court terme temps de jeu: nécessite pression max >= 14
+    const shortTermPlaytime = canShowProjects &&
+        attributes.pressure[1] >= 14 &&
+        attributes.ambition[0] < 14; // Pas visible si ambition min >= 14
+
+    // Long terme temps de jeu: visible si pression peut être <= 13
+    const longTermPlaytime = canShowProjects &&
+        attributes.pressure[0] < 14 &&
+        attributes.ambition[0] < 14;
+
+    // Trophée: nécessite détermination >= 14 possible
+    const trophy = canShowProjects &&
+        determination >= 1 && // Toujours possible si det peut être ajustée
+        attributes.ambition[0] < 14;
+
+    // Capitaine: nécessite fidélité max >= 14
+    const captain = canShowProjects &&
+        attributes.loyalty[1] >= 14 &&
+        attributes.ambition[0] < 14 &&
+        attributes.loyalty[0] < 14;
+
+    return {
+        shortTermPlaytime,
+        longTermPlaytime,
+        trophy,
+        captain,
+        anyVisible: shortTermPlaytime || longTermPlaytime || trophy || captain
+    };
+}
+
+/**
+ * Applique les modifications des projets aux attributs
+ * Basé sur la fonction proj() de l'outil original
+ */
+export function applyProjects(
+    attributes: HiddenAttributes,
+    projects: PlayerProjects,
+    determination: number
+): { attributes: HiddenAttributes; minDetermination: number } {
+    // Copier les attributs pour ne pas muter l'original
+    const result: HiddenAttributes = {
+        professionalism: [...attributes.professionalism],
+        ambition: [...attributes.ambition],
+        loyalty: [...attributes.loyalty],
+        pressure: [...attributes.pressure],
+        sportsmanship: [...attributes.sportsmanship],
+        temperament: [...attributes.temperament],
+        controversy: [...attributes.controversy]
+    };
+
+    let minDetermination = 1;
+
+    // Projet à court terme temps de jeu: Ambition >= 14, Pression >= 14
+    if (projects.shortTermPlaytime) {
+        result.ambition[0] = Math.max(result.ambition[0], 14);
+        result.pressure[0] = Math.max(result.pressure[0], 14);
+    }
+
+    // Projet à long terme temps de jeu: Ambition >= 14, Pression <= 13
+    if (projects.longTermPlaytime) {
+        result.ambition[0] = Math.max(result.ambition[0], 14);
+        result.pressure[1] = Math.min(result.pressure[1], 13);
+    }
+
+    // Projet de remporter un trophée: Ambition >= 14, Détermination >= 14
+    if (projects.trophy) {
+        result.ambition[0] = Math.max(result.ambition[0], 14);
+        minDetermination = Math.max(minDetermination, 14);
+    }
+
+    // Projet de devenir capitaine: Ambition >= 14, Fidélité >= 14
+    if (projects.captain) {
+        result.ambition[0] = Math.max(result.ambition[0], 14);
+        result.loyalty[0] = Math.max(result.loyalty[0], 14);
+    }
+
+    return { attributes: result, minDetermination };
+}

@@ -59,10 +59,7 @@
             <h1 class="page-title">{$_("staff.title")}</h1>
             <p class="page-subtitle">{$_("staff.description")}</p>
         </div>
-        <div class="fm26-badge">
-            <span class="badge-icon">🎮</span>
-            <span>FM26</span>
-        </div>
+        <img src="/fm26-logo.png" alt="FM26" class="fm26-logo" />
     </header>
 
     <!-- Légende FM26 -->
@@ -458,17 +455,16 @@
         margin: 0;
     }
 
-    .fm26-badge {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 0.5rem 1rem;
-        background: linear-gradient(135deg, #ff6b00 0%, #ff8c3a 100%);
-        border-radius: 20px;
-        font-size: 0.85rem;
-        font-weight: 700;
-        color: white;
-        box-shadow: 0 4px 15px rgba(255, 107, 0, 0.3);
+    .fm26-logo {
+        height: 42px;
+        width: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        transition: transform 0.2s ease;
+    }
+
+    .fm26-logo:hover {
+        transform: scale(1.05);
     }
 
     .fm26-legend {
