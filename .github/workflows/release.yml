@@ -6,7 +6,37 @@ on:
   workflow_dispatch:
 
 jobs:
-  release:
+  create-release:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cat <<EOF > notes.md
+          Download the portable executable for your platform.
+
+          ## Security Verification
+          All artifacts are signed with GitHub Attestations. Verify with:
+          \`\`\`bash
+          gh attestation verify <downloaded-file> --owner AnthonyMahe
+          \`\`\`
+
+          SHA256 checksums are included in \`checksums.txt\` for integrity verification.
+          EOF
+
+          gh release create ${{ github.ref_name }} \
+            --title "FMToolsV2 ${{ github.ref_name }}" \
+            --notes-file notes.md \
+            --draft || true
+
+  build-release:
+    needs: create-release
     permissions:
       contents: write
       id-token: write
@@ -40,24 +70,6 @@ jobs:
 
       - name: Build Tauri app
         run: npm run tauri build
-
-      - name: Create Release (first platform only)
-        if: matrix.platform == 'ubuntu-22.04'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          gh release create ${{ github.ref_name }} \
-            --title "FMToolsV2 ${{ github.ref_name }}" \
-            --notes "Download the portable executable for your platform.
-
-## Security Verification
-All artifacts are signed with GitHub Attestations. Verify with:
-\`\`\`bash
-gh attestation verify <downloaded-file> --owner AnthonyMahe
-\`\`\`
-
-SHA256 checksums are included in \`checksums.txt\` for integrity verification." \
-            --draft || true
 
       - name: Upload AppImage (Linux)
         if: matrix.platform == 'ubuntu-22.04'
